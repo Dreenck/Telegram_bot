@@ -1,7 +1,7 @@
 import requests
 from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
-
+# Hello from new subject I need to study for me to pass my exams
 # Your API key for Spoonacular API
 API_KEY = '9f46ac46373b4b69afc652edd022063d'
 
