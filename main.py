@@ -1,12 +1,13 @@
 import requests
 from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
+from blabal import *
 # Hello from new subject I need to study for me to pass my exams
 # Your API key for Spoonacular API
-API_KEY = '9f46ac46373b4b69afc652edd022063d'
+API_KEY = api_key
 
 # Your Telegram Bot Token
-TOKEN = '7962516434:AAFB8jcyOR5xfcc62ExFf56wclR9XR09Rr8'
+TOKEN = tel_key
 
 # Function to get a random recipe
 async def get_random_recipe():
